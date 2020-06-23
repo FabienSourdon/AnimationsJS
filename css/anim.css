@@ -13,13 +13,15 @@
     align-items: center;
 }
 
-.divExpand{
-    width: 20vw;
-    height: fit-content;
+#divExpand{
+    width: 336px;
+    height: 109px;
     background-color: coral;
     overflow: hidden;
 }
 
 #plus{
-    display: none;
+    visibility: hidden;
+    width: 100%;
+    height: 341px;
 }
