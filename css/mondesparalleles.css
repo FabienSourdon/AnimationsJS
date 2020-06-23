@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#voile{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.5;
+}
+#contGen{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/bck.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btnG{
+    width: 10%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+#affiche{
+    width: 75%;
+    height: 75%;
+    background-color: white;
+    border: 1px solid grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contImg{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(82, 80, 80);
+}
+
+#contImg>img{
+    width: 100%;
+    height: 100%;
+}
+
+#btnD{
+    width: 10%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.chevrons{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
