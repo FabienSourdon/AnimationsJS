@@ -3,7 +3,7 @@ let plusTxt = document.getElementById("plus");
 let btnPlus = document.getElementById("btnPlus");
 let objExpand = document.getElementById("divExpand");
 
-console.log(btnPlus);
+//console.log(btnPlus);
 
 function expand() {
 
